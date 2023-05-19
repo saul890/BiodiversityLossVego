@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Intoduction -->
+    <div id="firstSection" class="sectionDiv">
+        <h1>A vegetarian diet may be the only way we can save our planet</h1>
+            <h2>The unsustainable demand for mass-produced meat is the leading contributor to our worlds catastrophic loss of precious species and only serves the selfish interests of a select few wealthy nations.</h2>
+            <div id="anImage" ><img src="cow4.jpg"></div>
+            <p id="imageText">Source: Pexabay</p>
+            <p>
+                History will remember the defining problem of the 21st century – whether or not we actually solve it – to be adapting our civilisation to survive the changes brought on by anthropogenic climate change. But an equal and perhaps under-addressed story is how we might preserve the natural environment around us whilst doing so. (Grace, 2023)
+                <br>
+                <br>    
+                So what does this have to do with vegetarianism?
+                <br>
+                <br>
+                Five years ago, I switched to a vegetarian diet after learning about the livestock industry's impact on deforestation. Since then, I've faced criticism for my choice, including misconceptions that deforestation is necessary for a vegetarian diet and that changing global eating habits is impractical. However, the data shows that it requires significantly more land to farm animals than plants and by changing the diets of only a small portion of wealthy nations, we can make a significant positive impact.
+            </p>
+    </div>
+
+    <!-- Second Section -->
+    <h3 id="lpiMargin">Living Planet Index vs Global Forest Area</h3>
+    <div id="secondSection" class="sectionDiv">
+        <div class="chart-container">
+        <div id="line_chart"></div>
+    </div>
+        <p id="secondP">
+            The Living Planet Index (LPI), is an indicator of the world's biological diversity that measures population trends of vertebrate species across various habitats, including terrestrial, freshwater, and marine. The LPI began recording in 1970 and was 1 in that year, but has decreased below 0.3 today, indicating that we've lost 70% of biodiversity since 1970 (WWF, 2022).
+            <br>
+            <br>
+            The LPI has decreased in direct correlation to the worlds forest area. This should be no surprise, forests contain 80% of the wolds amphibian species, 75% of the worlds bird species and 68% of the worlds mammal species (UN, 2020). When we destroy our forests, we destroy wild animal habitats and therefore decrease biodiversity. 
+            <br>
+            <br>
+            So, Why are we losing so much forest?
+        </p>
+    </div>
+
+    <!-- Third Section -->
+    <h3 id="driverMargin">Drivers of Deforestation</h3>
+    <div id="thirdSection" class="sectionDiv">
+        <div class="pie-container">
+        <div id="pie_chart"></div>
+    </div>
+    <p id="thirdP">
+        Most diets rely on agriculture, and therefore rely on farming land, making agriculture the top driver of deforestation (GreenPeace, 2023).
+        <br>
+        <br>
+        However, we don’t need to starve to solve our deforestation issue, we don’t even need to eat less. Agriculture is only so land intensive because people eat meat.
+    </p>
+    </div>
+
+
+    <!-- Forth Section -->
+    <h3>Livestock vs Your Choice of Plant: Land used for 100g protein.</h3>
+    <div id="forthSection" class="sectionDiv">
+        <div class="bubbles-container">
+            <div id="Livestock" ></div>
+            <div id="Crops" ><select id="dropdown"></select></div>
+        </div>
+    </div>
+
+    <p id="forthP">It takes 175% more land to produce 100g of protein from lamb and beef than it does to produce the same amount of protein from tofu. So, the real driving force behind deforestation isn't agriculture, it's livestock farming. 
+        <br>
+        <br>
+        Our global food supply reflects this notion. While livestock takes up most of our agricultural land, it produces significantly less consumable food than plants. (Our World in Data, 2019)
+    </p>
+
+   
+
+    <!-- Fifth Section -->
+    <h3 id="useMargin">Land use vs Food Supply</h3>
+    <div id="fifthSection" class="sectionDiv">
+        <div id="bar-container">
+        <div id="landuse"></div>
+    </div>
+        <p id="secondLastMargin"> Plants are the primary source of calories and protein for the world's population. However, it is a handful of affluent nations that significantly drive the livestock industry, which in turn drives deforestation.</p>
+    </div>
+   
+    <!-- Sixth Section -->
+    <div id="sixthSection" class="sectionDiv">
+        <div id="slide"></div>
+    </div>
+    <p id="lastMargin"> 
+        A distinct pattern emerges in the chart above. Countries with higher income levels demonstrate an escalating demand for meat consumption, while a substantial majority of nations tend to cluster towards the lower income bracket and reflect lower levels of meat consumption. 
+        <br>
+        <br>
+        The wealthiest nations, with greater supermarket access and more dietary options, consume substantially higher quantities of meat compared to their less affluent counterparts. Hence, the problem of deforestation can be attributed to the dietary preferences of the minority of people who are fortunate enough to possess the means to alter their eating habits but remain unwilling to do so. 
+    </p>
+
+    <div id="sources" class="sectionDiv">
+        <h3>Sources</h3>
+        <p>ye deez sources</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
